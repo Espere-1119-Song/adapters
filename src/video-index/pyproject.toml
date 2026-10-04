@@ -1,0 +1,22 @@
+[project]
+name = "harbor-video-index-adapter"
+version = "0.1.0"
+description = "Harbor adapter for Video-Index, a curated meta-benchmark of 840 hard multiple-choice video questions"
+readme = "README.md"
+authors = [
+    { name = "Espere-1119-Song", email = "enxin.song.dut@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "huggingface-hub>=0.24",
+]
+
+[project.scripts]
+video-index = "video_index.main:main"
+
+[build-system]
+requires = ["uv_build>=0.9.27,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "video_index"

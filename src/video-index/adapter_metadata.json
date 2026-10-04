@@ -1,0 +1,36 @@
+[
+  {
+    "adapter_name": "video-index",
+    "adapter_builders": [
+      "Enxin Song (enxin.song.dut@gmail.com)"
+    ],
+    "original_benchmark": [
+      {
+        "split": "test",
+        "size": 840,
+        "harness": "agent",
+        "supported_agents": [
+          "claude-code@2.1.278"
+        ],
+        "adaptable": true,
+        "notes": "Released Video-Index test set (Video-Index/Video-Index, items/test.jsonl). The paper's agentic results come from one CLI-agent session per question on the video file (Claude Code 2.1.278 with tools Bash and Read, maximum reasoning effort, 1,800 s per question; Codex and Gemini CLI runs as well). 102 of the 840 released questions were replaced after those runs."
+      }
+    ],
+    "harbor_adapter": [
+      {
+        "split": "test",
+        "adapted_benchmark_size": 840,
+        "parity_benchmark_size": null,
+        "parity_sampling_rate": null,
+        "registry_benchmark_size": 840,
+        "added_agents": [
+          "None"
+        ],
+        "parity_matching_agents": [],
+        "parity_unmatching_agents": null,
+        "parity_costs": null,
+        "notes": "Parity pending; agents, models, subset and number of runs to be agreed with the Harbor team. An optional blind protocol (--protocol blind, 3,360 tasks) is not part of the registered dataset."
+      }
+    ]
+  }
+]
