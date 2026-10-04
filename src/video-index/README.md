@@ -3,7 +3,7 @@
 ## Overview
 
 Video-Index is a curated meta-benchmark of hard multiple-choice questions about videos. Every question asks about a
-silent video and offers 4 to 16 lettered options; the score is accuracy. The questions come from 76 public video
+silent video and offers 2 to 10 lettered options (mean chance 29.7%); the score is accuracy. The questions come from 76 public video
 benchmarks and were selected because shortcut attackers (options alone, question text, earlier items, single frames,
 shuffled frames) could not answer them.
 
